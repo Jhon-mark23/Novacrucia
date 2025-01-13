@@ -59,7 +59,7 @@ module.exports.run = async function ({ bot, args, authToken, event }) {
       sendMessage(bot, { text: `Error: ${error.message || "Something went wrong."}` }, authToken);
     }
   }
-};
+
 
 async function handleImageRecognition(apiUrl, prompt, imageUrl, senderId) {
   try {
