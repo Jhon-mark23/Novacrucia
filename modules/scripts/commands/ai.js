@@ -3,7 +3,7 @@ const { sendMessage } = require('../handles/sendMessage');
 
 
 module.exports.config = {
-    name: "testreplydata", // Command name
+    name: "aitest", // Command name
     author: "mark",
     version: "1.0",
     category: "test",
